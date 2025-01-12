@@ -1,8 +1,8 @@
-function configureWebSocket() {
-    const protocol = window.location.protocol === 'http:' ? 'ws' : 'wss';
-    let socket = new WebSocket(`${protocol}://${window.location.host}/ws`);
+// function configureWebSocket() {
+//     const protocol = window.location.protocol === 'http:' ? 'ws' : 'wss';
+//     let socket = new WebSocket(`${protocol}://${window.location.host}/ws`);
 
-    return socket;
-}
+//     return socket;
+// }
 
-let socket = configureWebSocket();
+// let socket = configureWebSocket();
